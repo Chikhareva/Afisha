@@ -9,6 +9,7 @@ public class MovieManager {
     public MovieManager() {
     }
 
+
     public MovieManager(int countOutMovies) {
         this.countOutMovies = countOutMovies;
     }

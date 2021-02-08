@@ -13,6 +13,7 @@ public class MovieItem {
         this.genre = genre;
     }
 
+
     public String getId() {
         return id;
     }

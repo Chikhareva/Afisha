@@ -6,6 +6,7 @@ import ru.netology.domain.MovieItem;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MovieManagerTest {
+    
 
     @Test
     void shouldOutput10LastAddMoviesFromAllList() {
