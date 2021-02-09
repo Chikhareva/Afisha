@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CartManagerTest {
     private PurchaseItem[] items = new PurchaseItem[0];
+    @Test
 
     public void add(PurchaseItem item) {
         // создаём новый массив размером на единицу больше
@@ -23,6 +24,7 @@ class CartManagerTest {
         tmp[lastIndex] = item;
         items = tmp;
     }
+    @Test
 
     public PurchaseItem[] getAll() {
         PurchaseItem[] result = new PurchaseItem[items.length];
@@ -36,6 +38,7 @@ class CartManagerTest {
     }
 
     // наивная реализация
+    @Test
     public void removeById(int id) {
         int length = items.length - 1;
         PurchaseItem[] tmp = new PurchaseItem[length];
